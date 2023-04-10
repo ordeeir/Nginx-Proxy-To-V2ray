@@ -1,5 +1,5 @@
 FROM nginx:latest
-EXPOSE 80
+EXPOSE 443
 USER root
 
 COPY nginx.conf /etc/nginx/nginx.conf
